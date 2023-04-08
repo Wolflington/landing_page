@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    height:100vh;
+    overflow: auto;
     font-family: roboto, sans-serif;
     margin: 0;
 }
@@ -56,5 +56,12 @@ li {
     background-color: #1F2937;
     color:#F9FAF8;
     display: flex;
+    justify-content: center;
     height: 350px;
+}
+
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
 }
