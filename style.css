@@ -3,6 +3,7 @@
 body {
     height:100vh;
     font-family: roboto, sans-serif;
+    margin: 0;
 }
 
 a {
@@ -31,12 +32,20 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 0 1 2000px;
+    width: 2000px;
     height: 75px;
-    background-color: aqua;
+    background-color: #1F2937;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-left: 15px;
 }
 
 .header-links {
     display: flex;
-    justify-content: space-between;
+    color: #E5E7EB;
+    font-size: 18px;
 }
