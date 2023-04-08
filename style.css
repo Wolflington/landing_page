@@ -21,7 +21,13 @@ ul {
 li {
     display: flex;
     justify-content: space-between;
-    margin-right: 15px;
+    margin-right: 25px;
+    margin-left: 35px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
 }
 
 .header-container {
@@ -35,14 +41,17 @@ li {
     align-items: center;
     width: 2000px;
     height: 75px;
-    background-color: #1F2937;
+    background-color: #9c6e3a;
 }
 
 .logo {
     font-weight: bolder;
     font-size: 32px;
     color: #F9FAF8;
-    margin-left: 15px;
+    margin-left: 75px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .header-links {
