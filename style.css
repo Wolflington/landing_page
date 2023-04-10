@@ -19,15 +19,8 @@ ul {
 }
 
 li {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 25px;
-    margin-left: 35px;
-}
 
-img {
-    width: 50px;
-    height: 50px;
+    margin-left: 25px;
 }
 
 .header-container {
@@ -45,19 +38,22 @@ img {
 }
 
 .logo {
-    font-weight: bolder;
-    font-size: 32px;
-    color: #F9FAF8;
-    margin-left: 75px;
+    margin-left: 200px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.img-logo img{
+    width: 50px;
+    height: 50px;
 }
 
 .header-links {
     display: flex;
     color: #E5E7EB;
     font-size: 18px;
+    margin-right: 200px;
 }
 
 .main-body {
