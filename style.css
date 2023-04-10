@@ -19,13 +19,11 @@ ul {
 }
 
 li {
-
     margin-left: 25px;
 }
 
 .header-container {
     display: flex;
-    justify-content: center;
 }
 
 .header{
@@ -61,12 +59,14 @@ li {
     background-color: #1F2937;
     color:#F9FAF8;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     height: 350px;
 }
 
-.body-container {
-    display: flex;
-    justify-content: space-between;
-    width: 1500px;
+.left-body {
+    margin: 0px 200px 0px 200px;
+}
+
+.right-body {
+    margin: 0px 200px 0px 200px;
 }
