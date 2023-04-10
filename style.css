@@ -4,6 +4,7 @@ body {
     overflow: auto;
     font-family: roboto, sans-serif;
     margin: 0;
+    background-image: url(./images/world.jpg)
 }
 
 a {
@@ -33,7 +34,6 @@ li {
     align-items: center;
     width: 2000px;
     height: 75px;
-    background-color: #4083e2;
     
 }
 
@@ -58,7 +58,6 @@ li {
 
 .main-body {
     margin: 0;
-    background-color: #225194;
     color:#F9FAF8;
     display: flex;
     justify-content: space-between;
@@ -80,10 +79,13 @@ button.join-us {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50px;
-    height: 30px;
-    width: 70px;
-    margin-top: 10px;
+    border-radius: 10px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    font-size: 24px;
+    color: white;
+    background-color: #3882F6
 }
 
 .right-body {
