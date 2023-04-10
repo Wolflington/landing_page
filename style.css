@@ -24,6 +24,7 @@ li {
 
 .header-container {
     display: flex;
+    flex: auto;
 }
 
 .header{
@@ -32,11 +33,12 @@ li {
     align-items: center;
     width: 2000px;
     height: 75px;
-    background-color: #9c6e3a;
+    background-color: #4083e2;
+    
 }
 
 .logo {
-    margin-left: 300px;
+    margin-left: 400px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -51,29 +53,57 @@ li {
     display: flex;
     color: #E5E7EB;
     font-size: 18px;
-    margin-right: 300px;
+    margin-right: 400px;
 }
 
 .main-body {
     margin: 0;
-    background-color: #1F2937;
+    background-color: #225194;
     color:#F9FAF8;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 450px;
+    height: 400px;
+    flex: auto;
 }
 
 .left-body {
-    margin: 0px 300px 0px 300px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    flex: none;
+}
+
+button.join-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 30px;
+    width: 70px;
+    margin-top: 10px;
 }
 
 .right-body {
-    margin: 0px 300px 0px 300px;
+    margin-right: 400px;
+    display: flex;
+}
+
+.right-body img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .hero-text{
     color:#F9FAF8;
     font-weight: 800;
-    font-size: 48px;
+    font-size: 56px;
 }
+
+.secondary-text {
+    font-size: 18px;
+}
+
