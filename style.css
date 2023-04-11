@@ -88,7 +88,7 @@ button.join-us {
     margin-top: 15px;
     font-size: 24px;
     color: white;
-    background-color: #3882F6;
+    background-color: #2755a0;
     
 }
 
@@ -143,8 +143,14 @@ button.join-us {
     height: 200px;
     object-fit: cover;
     border: 5px lightskyblue solid;
-    border-radius: 30%;
+    border-radius: 25%;
     margin-bottom: 8px;
+}
+
+.name{
+    color:#E5E7EB;
+    font-size: 24px;
+    font-weight: 800;
 }
 
 .text {
