@@ -79,9 +79,6 @@ li {
 }
 
 button.join-us {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 10px;
     height: 50px;
     width: 140px;
@@ -188,4 +185,31 @@ button.join-us {
     background-color:black;
     color:#F9FAF8;
     height: 70px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    width: 700px;
+    height: 100px;
+    border-radius: 10px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+button.sign-up{
+    color: white;
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
 }
