@@ -4,7 +4,7 @@ body {
     overflow: auto;
     font-family: roboto, sans-serif;
     margin: 0;
-    background-image: url(./images/world.jpg)
+    background-image: url(./images/world.jpg);
 }
 
 a {
@@ -64,15 +64,18 @@ li {
     align-items: center;
     height: 400px;
     flex: auto;
+    flex-direction: row-reverse;
 }
 
 .left-body {
-    margin-left: 400px;
+    margin-right: 400px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 500px;
+    width: 550px;
+    min-height: 350px;
     flex: none;
+    padding: 0;
 }
 
 button.join-us {
@@ -85,17 +88,18 @@ button.join-us {
     margin-top: 15px;
     font-size: 24px;
     color: white;
-    background-color: #3882F6
+    background-color: #3882F6;
+    
 }
 
 .right-body {
-    margin-right: 400px;
+    margin-left: 400px;
     display: flex;
 }
 
 .right-body img {
-    width: 500px;
-    height: 300px;
+    max-width: 550px;
+    max-height: 350px;
     object-fit: cover;
 }
 
