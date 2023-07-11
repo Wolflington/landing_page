@@ -144,6 +144,10 @@ button.join-us {
     margin-bottom: 8px;
 }
 
+.container > .img1 {
+    gap: 7px;
+}
+
 .name{
     color:#E5E7EB;
     font-size: 24px;
