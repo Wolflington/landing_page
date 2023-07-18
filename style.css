@@ -130,7 +130,7 @@ button.join-us {
 
 .container{
     display: flex;
-    gap: 52px;
+    gap: 100px;
     text-align: center;
     
 }
@@ -141,12 +141,11 @@ button.join-us {
     object-fit: cover;
     border: 5px lightskyblue solid;
     border-radius: 25%;
-    margin-bottom: 8px;
 }
 
-.container > .img1 {
-    gap: 7px;
-}
+/* .container > .img1 {
+    margin-right: 5px;
+} */
 
 .name{
     color:#E5E7EB;
@@ -178,6 +177,9 @@ button.join-us {
 }
 
 .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 300px;
     color:#F9FAF8;
 }
@@ -189,12 +191,6 @@ button.join-us {
     background-color:black;
     color:#F9FAF8;
     height: 70px;
-}
-
-.contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .modal {
